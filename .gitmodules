@@ -1,3 +1,9 @@
 [submodule "freertos/FreeRTOS-Kernel"]
 	path = freertos/FreeRTOS-Kernel
 	url = https://github.com/FreeRTOS/FreeRTOS-Kernel
+[submodule "eez-framework-arduino"]
+	path = eez-framework
+	url = https://github.com/goran-mahovlic/eez-framework-arduino.git
+[submodule "lvgl"]
+	path = lvgl
+	url = https://github.com/lvgl/lvgl
