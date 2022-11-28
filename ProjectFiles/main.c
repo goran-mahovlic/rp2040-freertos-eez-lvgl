@@ -2,10 +2,11 @@
 #include <task.h>
 #include <stdio.h>
 #include "pico/stdlib.h"
+#include "ui/ui.h"
 
 
 void led_task()
-{   
+{
     const uint LED_PIN = PICO_DEFAULT_LED_PIN;
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
